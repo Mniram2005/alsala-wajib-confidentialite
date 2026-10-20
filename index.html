@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alsala Wajib — Politique de confidentialité</title>
+<style>
+  :root { --bg: #fbfaf6; --text: #1d2a27; --muted: #5b6b66; --accent: #0f5c4d; --line: #e3ddd0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #071a17; --text: #ece6d6; --muted: #a9b8a8; --accent: #e8c97a; --line: #1e3a35; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--accent); }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; color: var(--accent); }
+  .date, .lang { color: var(--muted); font-size: .95rem; }
+  .lang a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<section lang="fr" id="fr">
+<h1>Politique de confidentialité d'Alsala Wajib</h1>
+<p class="date">Dernière mise à jour : 20 octobre 2026</p>
+<p class="lang"><a href="#en">English version below</a></p>
+
+<p>Alsala Wajib est une application Android de rappels de prière, d'outils religieux et de blocage d'applications pendant la prière. Elle est publiée par Alsala Wajib, développeur indépendant à Djibouti.</p>
+
+<p><strong>En résumé :</strong> l'application ne demande aucun compte, n'affiche aucune publicité, n'utilise aucun outil de statistiques ni de suivi, et n'envoie aucune de tes données à un serveur de l'application. Tout ce que tu enregistres reste sur ton téléphone.</p>
+
+<h2>1. Ta position</h2>
+<p>Ta position (précise ou approximative, selon ce que tu autorises) sert uniquement à calculer les horaires de prière et la direction de la Qibla. Elle est enregistrée sur ton téléphone pour ne pas la redemander à chaque ouverture, et n'est pas envoyée à un serveur de l'application.</p>
+<p>Exception : si le GPS ne répond pas et qu'aucune position n'est encore enregistrée, l'application demande une position approximative (la ville) au service <a href="https://ipwho.is">ipwho.is</a>. Ce service reçoit alors ton adresse IP, comme tout site internet que tu consultes, et renvoie seulement une latitude et une longitude. Cela n'arrive en général qu'au premier lancement.</p>
+
+<h2>2. Les données que tu crées dans l'application</h2>
+<p>Tes réglages, tes alarmes, ton suivi des prières, ta progression de mémorisation du Coran, tes scores au quiz, ton compteur d'istighfar, tes formules personnelles, ton marque-page du Coran et la liste des applications que tu choisis de bloquer sont enregistrés <strong>uniquement sur ton téléphone</strong>. Ils sont effacés quand tu désinstalles l'application ou que tu effaces ses données dans les réglages d'Android.</p>
+<p>Si la sauvegarde Android est activée sur ton téléphone, Google peut inclure ces données dans la sauvegarde de ton compte Google, selon tes réglages de sauvegarde. L'application ne les envoie nulle part elle-même.</p>
+
+<h2>3. Blocage des applications et verrou des Réglages</h2>
+<p>Ces fonctions sont facultatives et demandent des autorisations spéciales, que tu accordes toi-même dans Android :</p>
+<ul>
+  <li><strong>Accès aux données d'utilisation</strong> : pour savoir quelle application est ouverte pendant un blocage, et la recouvrir si tu l'as choisie.</li>
+  <li><strong>Liste des applications installées</strong> : pour te laisser choisir celles à bloquer.</li>
+  <li><strong>Affichage par-dessus d'autres applications</strong> : pour afficher l'écran de prière.</li>
+</ul>
+<p>Ces informations sont lues et utilisées sur ton téléphone, au moment du blocage. Elles ne sont ni enregistrées en dehors de tes choix, ni envoyées à qui que ce soit.</p>
+
+<h2>4. Blocage de sites (DNS filtré)</h2>
+<p>L'application t'explique comment activer dans Android un « DNS privé » familial (Cloudflare Famille, AdGuard Famille ou CleanBrowsing Famille). Ce réglage est fait par Android, pas par l'application : les noms des sites que tu visites sont alors traités par le fournisseur choisi, selon sa propre politique de confidentialité (<a href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/">Cloudflare</a>, <a href="https://adguard-dns.io/fr/privacy.html">AdGuard</a>, <a href="https://cleanbrowsing.org/privacy">CleanBrowsing</a>). L'application ne voit jamais ces sites ; elle lit seulement si un DNS privé est actif et son nom.</p>
+
+<h2>5. Les autres autorisations</h2>
+<table>
+  <tr><th>Autorisation</th><th>Pourquoi</th></tr>
+  <tr><td>Notifications</td><td>Rappels avant la prière, adhan, alarmes.</td></tr>
+  <tr><td>Alarmes et rappels (alarmes exactes)</td><td>Faire arriver les rappels, l'adhan, les alarmes et le blocage pile à l'heure.</td></tr>
+  <tr><td>Démarrage du téléphone</td><td>Reprogrammer les rappels et reprendre un blocage en cours après un redémarrage.</td></tr>
+  <tr><td>Services au premier plan</td><td>Garder le blocage actif pendant sa durée, et faire sonner une alarme jusqu'à ce que tu l'arrêtes.</td></tr>
+  <tr><td>Vibration, maintien de l'écran éveillé</td><td>Vibration des alarmes et des notifications, y compris en mode silencieux (si le réglage « Vibration » est activé) ; sonnerie qui continue écran éteint.</td></tr>
+  <tr><td>Fermer les applications en arrière-plan</td><td>Couper le son d'une application bloquée quand tu la quittes.</td></tr>
+  <tr><td>Internet, état du réseau</td><td>Position approximative (voir 1) et état du DNS privé (voir 4).</td></tr>
+</table>
+
+<h2>6. Partage et vente</h2>
+<p>Aucune donnée n'est vendue, louée ni partagée avec des tiers à des fins publicitaires ou autres. Le seul échange avec un service extérieur est celui décrit au point 1 (ipwho.is). Les liens vers d'autres sites, et le bouton qui ouvre la page de l'application sur Google Play, ouvrent ces services, qui ont leurs propres règles.</p>
+
+<h2>7. Tes choix</h2>
+<p>Tu peux retirer à tout moment chaque autorisation dans les réglages d'Android ; seule la fonction concernée cesse de marcher. Pour effacer toutes tes données, désinstalle l'application ou efface ses données (Réglages Android → Applications → Alsala Wajib → Stockage).</p>
+
+<h2>8. Enfants</h2>
+<p>L'application s'adresse à un public général. Elle ne collecte aucune donnée personnelle, y compris celles des enfants.</p>
+
+<h2>9. Modifications</h2>
+<p>Si cette politique change (par exemple si une nouvelle fonction utilise internet), la nouvelle version sera publiée sur cette page avec sa date de mise à jour.</p>
+
+<h2>10. Contact</h2>
+<p>Pour toute question : <a href="mailto:inabasha05@gmail.com">inabasha05@gmail.com</a>.</p>
+</section>
+
+<hr>
+
+<section lang="en" id="en">
+<h1>Alsala Wajib Privacy Policy</h1>
+<p class="date">Last updated: October 20, 2026</p>
+<p class="lang"><a href="#fr">Version française plus haut</a></p>
+
+<p>Alsala Wajib is an Android app for prayer reminders, Islamic tools and blocking apps during prayer. It is published by Alsala Wajib, an independent developer in Djibouti.</p>
+
+<p><strong>In short:</strong> the app requires no account, shows no ads, uses no analytics or tracking tools, and sends none of your data to an app server. Everything you save stays on your phone.</p>
+
+<h2>1. Your location</h2>
+<p>Your location (precise or approximate, as you allow) is used only to compute prayer times and the Qibla direction. It is saved on your phone so it is not requested at every launch, and it is not sent to an app server.</p>
+<p>Exception: if the GPS does not respond and no location has been saved yet, the app asks the <a href="https://ipwho.is">ipwho.is</a> service for an approximate location (the city). That service then receives your IP address, like any website you visit, and only returns a latitude and longitude. This usually happens only on first launch.</p>
+
+<h2>2. Data you create in the app</h2>
+<p>Your settings, alarms, prayer log, Quran memorization progress, quiz scores, istighfar counter, custom phrases, Quran bookmark and the list of apps you choose to block are stored <strong>only on your phone</strong>. They are deleted when you uninstall the app or clear its data in Android settings.</p>
+<p>If Android backup is turned on, Google may include this data in your Google account backup, according to your backup settings. The app itself never sends it anywhere.</p>
+
+<h2>3. App blocking and Settings lock</h2>
+<p>These features are optional and need special permissions that you grant yourself in Android:</p>
+<ul>
+  <li><strong>Usage access</strong>: to know which app is open during a block, and cover it if you chose it.</li>
+  <li><strong>List of installed apps</strong>: to let you choose which ones to block.</li>
+  <li><strong>Display over other apps</strong>: to show the prayer screen.</li>
+</ul>
+<p>This information is read and used on your phone, during the block. It is neither stored beyond your choices nor sent to anyone.</p>
+
+<h2>4. Website blocking (filtered DNS)</h2>
+<p>The app explains how to turn on a family "Private DNS" in Android (Cloudflare Family, AdGuard Family or CleanBrowsing Family). This setting is applied by Android, not by the app: the names of the websites you visit are then handled by the chosen provider, under its own privacy policy (<a href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/">Cloudflare</a>, <a href="https://adguard-dns.io/en/privacy.html">AdGuard</a>, <a href="https://cleanbrowsing.org/privacy">CleanBrowsing</a>). The app never sees those websites; it only reads whether a private DNS is active and its name.</p>
+
+<h2>5. Other permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td>Notifications</td><td>Reminders before prayer, adhan, alarms.</td></tr>
+  <tr><td>Alarms &amp; reminders (exact alarms)</td><td>Deliver reminders, adhan, alarms and blocking right on time.</td></tr>
+  <tr><td>Run at startup</td><td>Reschedule reminders and resume an ongoing block after a restart.</td></tr>
+  <tr><td>Foreground services</td><td>Keep a block active for its duration, and ring an alarm until you stop it.</td></tr>
+  <tr><td>Vibration, keep awake</td><td>Vibration for alarms and notifications, including in silent mode (if the Vibration setting is on); ringing that continues with the screen off.</td></tr>
+  <tr><td>Close background apps</td><td>Stop the sound of a blocked app when you leave it.</td></tr>
+  <tr><td>Internet, network state</td><td>Approximate location (see 1) and private DNS status (see 4).</td></tr>
+</table>
+
+<h2>6. Sharing and selling</h2>
+<p>No data is sold, rented or shared with third parties, for advertising or any other purpose. The only exchange with an outside service is the one described in section 1 (ipwho.is). Links to other websites, and the button that opens the app's Google Play page, open those services, which have their own rules.</p>
+
+<h2>7. Your choices</h2>
+<p>You can revoke any permission at any time in Android settings; only the related feature stops working. To erase all your data, uninstall the app or clear its data (Android Settings → Apps → Alsala Wajib → Storage).</p>
+
+<h2>8. Children</h2>
+<p>The app is intended for a general audience. It collects no personal data, including children's data.</p>
+
+<h2>9. Changes</h2>
+<p>If this policy changes (for example if a new feature uses the internet), the new version will be published on this page with its update date.</p>
+
+<h2>10. Contact</h2>
+<p>For any question: <a href="mailto:inabasha05@gmail.com">inabasha05@gmail.com</a>.</p>
+</section>
+
+</main>
+</body>
+</html>
